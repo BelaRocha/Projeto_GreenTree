@@ -183,5 +183,80 @@ h1, p, b, h2, h3, input {
     text-align: center;
 }
 
-/*--------------------------------------------------------signup page----------------------------------------------------------------*/
+/*--------------------------------------------------------signup/login page---------------------------------------------------------*/
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #0D1721
+}
+#registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.card{
+    background-color: #1D2935;
+    padding: 40px;
+    border-radius: 15px;
+    width: 280px;
+}
+.card_header{
+    font-size: 20;
+    padding-bottom: 30px;
+    opacity: 0.8;
+    color: #fff;
+}
+.content_header ::after{
+    background-color: #fff;
+    content: "";
+    width: 0.5;
+    height: 1;
+    display: block;
+    margin-top: -17;
+    margin-left: -5px
+}
+.card_content{
+    color: #fff;
+    font-size: 12;
+    opacity: 0.8;
+}
+.card_content_area{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.card_content_area input{
+    margin-top: 5px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+.card_footer{
+    text-align: center;
+    font-size: 12;
+    opacity: 0.8;
+    color: #fff;
+}
+.card_footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #057c50;
+    margin: 1px;
+    color: #fff;
+    border: none;
+}
+
 
